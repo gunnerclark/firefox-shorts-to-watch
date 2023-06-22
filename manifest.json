@@ -1,13 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "YouTube Shorts to Watch",
+    "name": "Reroute YouTube Shorts",
     "description": "Reroutes YouTube Shorts URLs to their respective watch URLs",
     "version": "0.0.1",
     "icons": {
-        "64": "icons/twitch.png"
+        "48": "icons/reroute.png"
     },
     "permissions": ["tabs"],
     "background": {
         "scripts": ["background.js"]
-    }
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "borderify@example.com"
+        }
+    }      
 }

@@ -2,6 +2,7 @@
     "manifest_version": 2,
     "name": "Reroute YouTube Shorts",
     "description": "Reroutes YouTube Shorts URLs to their respective watch URLs",
+    "homepage_url": "https://github.com/gunnerclark/firefox-shorts-to-watch",
     "version": "0.0.1",
     "icons": {
         "48": "icons/reroute.png"
@@ -9,10 +10,5 @@
     "permissions": ["tabs"],
     "background": {
         "scripts": ["background.js"]
-    },
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "borderify@example.com"
-        }
-    }      
+    }
 }
